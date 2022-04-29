@@ -1,0 +1,204 @@
+*{
+    font-family: 'Roboto',sans-serif;
+}
+header{
+    position: relative;
+}
+nav{
+    height: 51px;
+    background: rgba(21, 21, 21, 0.9) ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.menu{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+    
+}
+.menu__link{
+    font-weight: 300;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu__item{
+    border-right: 2px dotted #000000;
+    padding-right: 46px;
+}
+.subheader{
+    background: rgba(0, 0, 0, .6);
+    top: 51px;
+    height: 84px;
+    position: absolute;
+    width: 100%;
+}
+.subheader__logo{
+    display: block;
+    margin-top: 17px;
+    max-width: 100%;
+}
+.subheader__official{
+    margin-top: 1px;
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.subheader__call{
+    margin-top: 19px;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.subheader__phone{
+    font-weight: 400;
+    font-size: 22px;
+    display: block;
+    text-align: right;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.subheader__btn{
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 46px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+.promo{
+    min-height: 800px;
+    background: url(../img/bg/uber_bg.png) center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+.promo__header{
+    margin-top: 69px;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.promo__subheader{
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.promo__discr{
+    width: 985px;
+    height: 173px;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.promo__btn{
+    width: 259px;
+    height: 63px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 120px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 63px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.work{
+    min-height: 850px;
+    padding: 20px 0 64px 0;
+}
+.work__head{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.work__start{
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+.work__blok1>.work__item{
+    justify-content: end;
+}
+.work__blok2>.work__item{
+    justify-content: start;
+}
+.work__item{
+    top: 0;
+    margin-top: 25px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.4;
+    display: flex;
+}
+.work__item span{
+    color: #1EACC7;
+    font-size: 17px;
+    font-weight: 400;
+}
+.work__round{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+}
+.work__blok1 .work__txt{
+    width: 380px;
+    margin: auto 0;
+}
+.work__blok2 .work__txt{
+    width: 340px;
+    margin: auto 0;
+}
